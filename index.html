@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Protótipo estático e sintético do cockpit interno Inteligência Digital Pro">
+  <title>Alfa — Cockpit interno</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- estado.js é gerado por fase-c-piloto-pesquisa/bridge.py; ausente, o cockpit cai no conteúdo sintético da Fase A. -->
+  <script src="estado.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <aside class="sidebar" aria-label="Navegação principal">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">A</span><div><strong>Alfa</strong><small>Inteligência Digital Pro</small></div></div>
+    <div class="shadow-badge" role="status"><span aria-hidden="true"></span>SHADOW · SOMENTE LEITURA</div>
+    <nav>
+      <button class="nav-item active" data-view="hoje" aria-current="page"><span aria-hidden="true">◉</span> Hoje</button>
+      <button class="nav-item" data-view="comando"><span aria-hidden="true">⌘</span> Comando</button>
+      <button class="nav-item" data-view="squads"><span aria-hidden="true">⬡</span> Squads</button>
+      <button class="nav-item" data-view="tarefas"><span aria-hidden="true">✓</span> Tarefas</button>
+      <button class="nav-item" data-view="aprovacoes"><span aria-hidden="true">◇</span> Aprovações <span class="count">3</span></button>
+      <button class="nav-item" data-view="memoria"><span aria-hidden="true">▤</span> Memória</button>
+      <button class="nav-item" data-view="auditoria"><span aria-hidden="true">⌁</span> Auditoria</button>
+    </nav>
+    <div class="sidebar-foot"><span class="status-dot"></span><div><strong>Ambiente seguro</strong><small>Dados 100% sintéticos</small></div></div>
+  </aside>
+
+  <main id="conteudo" tabindex="-1">
+    <header class="topbar">
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div><p class="eyebrow">COCKPIT INTERNO · FASE A</p><h1 id="page-title">Hoje</h1></div>
+      <span class="mobile-shadow" aria-label="Modo shadow somente leitura">SHADOW</span>
+      <div class="user-chip" aria-label="Perfil do proprietário"><span>DP</span><div><strong>Proprietário</strong><small>Controle total</small></div></div>
+    </header>
+
+    <section id="hoje" class="view active" aria-labelledby="page-title">
+      <!-- Centro de comando: núcleo, especialistas ao redor e o movimento real da sala.
+           Preenchido pelo estado do piloto; oculto sem estado.js. -->
+      <section id="centro-comando" class="centro" hidden aria-labelledby="centro-titulo">
+        <div class="centro-head">
+          <div><p class="eyebrow">CENTRO DE COMANDO</p><h2 id="centro-titulo">A agência em operação</h2></div>
+          <span class="centro-selo" id="centro-selo"></span>
+        </div>
+        <div class="centro-corpo">
+          <div class="centro-mapa">
+            <svg class="centro-linhas" id="centro-linhas" aria-hidden="true"></svg>
+            <div class="centro-coluna" id="centro-esq"></div>
+            <div class="centro-miolo">
+              <div class="centro-fila" id="centro-topo"></div>
+              <div class="centro-nucleo"><strong id="centro-nucleo-valor"></strong><small id="centro-nucleo-rotulo"></small></div>
+              <div class="centro-fila" id="centro-base"></div>
+            </div>
+            <div class="centro-coluna" id="centro-dir"></div>
+          </div>
+          <div class="centro-sala">
+            <p class="eyebrow">MOVIMENTO DA SALA</p>
+            <p class="centro-sala-nota" id="centro-sala-nota"></p>
+            <ul id="centro-interacoes" class="interacoes"></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Preenchido a partir do estado real do piloto; fica oculto sem estado.js. -->
+      <div id="agencia" class="agencia" hidden>
+        <article class="panel cerebro">
+          <div class="panel-head"><div><p class="eyebrow">CÉREBRO DA AGÊNCIA</p><h3 id="cerebro-motor"></h3></div><span class="tag" id="cerebro-modo"></span></div>
+          <div class="cerebro-body">
+            <div class="cerebro-stats" id="cerebro-sabe"></div>
+            <div class="cerebro-cols">
+              <div><p class="eyebrow">MEMÓRIA GOVERNADA</p><div id="cerebro-memoria"></div></div>
+              <div><p class="eyebrow">O QUE ELE RECUSA</p><ul id="cerebro-recusa" class="chips"></ul></div>
+              <div><p class="eyebrow">LIMITES ATIVOS</p><ul id="cerebro-limites" class="lista-limites"></ul></div>
+            </div>
+          </div>
+        </article>
+        <article class="panel sala">
+          <div class="panel-head"><div><p class="eyebrow">SALA DE REUNIÃO</p><h3>Quem esteve na mesa</h3></div><span class="tag" id="sala-resumo"></span></div>
+          <div id="sala-grid" class="sala-grid"></div>
+        </article>
+      </div>
+      <div class="welcome"><div><p class="eyebrow">TERÇA-FEIRA, 22 DE SETEMBRO</p><h2>Boa noite. Aqui está o que merece sua atenção.</h2><p>Briefing demonstrativo gerado apenas com dados sintéticos.</p></div><span class="read-only-pill">Leitura segura</span></div>
+      <div class="metrics" aria-label="Resumo de hoje">
+        <article><span class="metric-icon blue">✓</span><div><strong>4</strong><small>Prioridades</small></div></article>
+        <article><span class="metric-icon amber">!</span><div><strong>2</strong><small>Projetos em risco</small></div></article>
+        <article><span class="metric-icon purple">◇</span><div><strong>3</strong><small>Decisões aguardando</small></div></article>
+        <article><span class="metric-icon green">R$</span><div><strong>12,40</strong><small>Custo sintético hoje</small></div></article>
+      </div>
+      <div class="grid two-thirds">
+        <article class="panel"><div class="panel-head"><div><p class="eyebrow">FOCO DO DIA</p><h3>Prioridades recomendadas</h3></div><span class="tag">4 itens</span></div>
+          <ol class="priority-list">
+            <li><span class="rank urgent">1</span><div><strong>Validar escopo do piloto Atlas</strong><p>Decisão bloqueia 3 tarefas do squad de Projetos.</p><small>Projeto Atlas · até 10:30</small></div><button class="text-action" data-go="aprovacoes">Ver decisão →</button></li>
+            <li><span class="rank">2</span><div><strong>Revisar proposta Horizonte</strong><p>Prévia comercial pronta, sem envio externo.</p><small>Comercial · até 14:00</small></div><button class="text-action" data-go="tarefas">Abrir tarefa →</button></li>
+            <li><span class="rank">3</span><div><strong>Checar divergência de métricas</strong><p>Duas fontes sintéticas reportam valores diferentes.</p><small>Dados · sem prazo</small></div><button class="text-action" data-go="auditoria">Ver evidência →</button></li>
+            <li><span class="rank">4</span><div><strong>Registrar decisão de posicionamento</strong><p>Resumo e fontes já preparados.</p><small>Conhecimento · esta semana</small></div><button class="text-action" data-go="memoria">Abrir memória →</button></li>
+          </ol>
+        </article>
+        <aside class="stack">
+          <article class="panel"><div class="panel-head"><div><p class="eyebrow">ATENÇÃO</p><h3>Projetos e riscos</h3></div></div>
+            <div class="risk"><span class="risk-dot red"></span><div><strong>Atlas</strong><p>Escopo sem confirmação há 3 dias</p></div><span class="tag red">Alto</span></div>
+            <div class="risk"><span class="risk-dot amber"></span><div><strong>Farol</strong><p>Prazo estimado excedido em 1 dia</p></div><span class="tag amber">Médio</span></div>
+          </article>
+          <article class="panel"><div class="panel-head"><div><p class="eyebrow">DECISÕES</p><h3>Dependem de você</h3></div><span class="tag purple">3 abertas</span></div>
+            <button class="decision" data-go="aprovacoes"><span>01</span><div><strong>Escopo do piloto Atlas</strong><small>Impacta prazo e custo</small></div><b>›</b></button>
+            <button class="decision" data-go="aprovacoes"><span>02</span><div><strong>Tom da campanha Aurora</strong><small>2 opções em prévia</small></div><b>›</b></button>
+            <button class="decision" data-go="aprovacoes"><span>03</span><div><strong>Retenção de memória</strong><small>30 ou 90 dias</small></div><b>›</b></button>
+          </article>
+        </aside>
+      </div>
+    </section>
+
+    <section id="comando" class="view" aria-labelledby="comando-title">
+      <div class="section-intro"><p class="eyebrow">CENTRAL DE COMANDO</p><h2 id="comando-title">Converse com o Alfa</h2><p>Simulação local e determinística. Nenhuma mensagem ou dado sai deste navegador.</p></div>
+      <article class="command-card">
+        <div id="conversation" class="conversation" aria-live="polite"><div class="message alfa"><span>A</span><div><strong>Alfa</strong><p>Como posso ajudar? Posso preparar um plano, resumir fontes ou mostrar o que depende de você.</p></div></div></div>
+        <form id="command-form" autocomplete="off"><label for="command-input">Digite um comando simulado</label><div class="command-input"><input id="command-input" maxlength="240" placeholder="Ex.: mostre o que depende de mim" required><button type="submit">Simular</button></div><small>Enter para simular · dados não persistidos</small></form>
+        <div class="suggestions" aria-label="Comandos sugeridos"><button data-command="Mostre o que depende de mim">O que depende de mim?</button><button data-command="Transforme a decisão em plano">Transformar decisão em plano</button><button data-command="Compare os números">Comparar números</button></div>
+      </article>
+    </section>
+
+    <section id="squads" class="view" aria-labelledby="squads-title"><div class="section-intro"><p class="eyebrow">CATÁLOGO OPERACIONAL</p><h2 id="squads-title">Seis squads especialistas</h2><p>Crítico e Guardião atuam transversalmente e podem bloquear qualquer fluxo.</p></div><div id="squad-grid" class="cards-grid"></div></section>
+
+    <section id="tarefas" class="view" aria-labelledby="tarefas-title"><div class="section-intro"><p class="eyebrow">BIBLIOTECA INICIAL</p><h2 id="tarefas-title">Dez tasks prioritárias</h2><p>Entradas e saídas definidas, sempre terminando em artefato verificável.</p></div><div class="panel table-wrap"><table><caption class="sr-only">Lista de dez tasks</caption><thead><tr><th scope="col">#</th><th scope="col">Task</th><th scope="col">Squad</th><th scope="col">Saída</th><th scope="col">Estado</th></tr></thead><tbody id="task-table"></tbody></table></div></section>
+
+    <section id="aprovacoes" class="view" aria-labelledby="aprovacoes-title"><div class="section-intro"><p class="eyebrow">CONTROLE HUMANO</p><h2 id="aprovacoes-title">Aprovações em prévia</h2><p>Este protótipo não executa ações. Os controles permanecem bloqueados.</p></div><div id="approval-list" class="approval-list"></div></section>
+
+    <section id="memoria" class="view" aria-labelledby="memoria-title"><div class="section-intro"><p class="eyebrow">MEMÓRIA GOVERNADA</p><h2 id="memoria-title">Contexto com procedência</h2><p>Todo registro informa escopo, fonte, data e retenção. Memória não é verdade automática.</p></div><div class="memory-controls"><label for="memory-filter">Filtrar escopo</label><select id="memory-filter"><option value="todos">Todos</option><option value="empresa">Empresa</option><option value="projeto">Projeto</option><option value="cliente">Cliente</option><option value="usuario">Usuário</option></select></div><div id="memory-list" class="memory-list" aria-live="polite"></div></section>
+
+    <section id="auditoria" class="view" aria-labelledby="auditoria-title"><div class="section-intro"><p class="eyebrow">RASTREABILIDADE</p><h2 id="auditoria-title">Auditoria</h2><p>Registro local sintético de consultas, bloqueios e artefatos.</p></div><div class="panel"><div class="audit-head"><span>Horário</span><span>Evento</span><span>Responsável</span><span>Resultado</span></div><div id="audit-list"></div></div></section>
+  </main>
+  <div id="scrim" class="scrim" hidden></div>
+  <noscript><p class="noscript">Ative JavaScript para navegar neste protótipo local.</p></noscript>
+</body>
+</html>
