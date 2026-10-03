@@ -3,7 +3,7 @@
 window.__ESTADO_PILOTO__ = {
   "schema_version": "0.1.0",
   "phase": "C",
-  "gerado_em": "2026-10-02T04:48:24.565002+00:00",
+  "gerado_em": "2026-10-03T02:57:26.784224+00:00",
   "piloto": {
     "id": "piloto-agencia-pesquisa-entregas",
     "nome": "Piloto de agência — pesquisa e preparação de entregas",
@@ -332,6 +332,44 @@ window.__ESTADO_PILOTO__ = {
       "terminou_em_bloqueio": 0
     }
   ],
+  "rodada_viva": {
+    "executado_em": "2026-10-03T02:37:46.172351+00:00",
+    "pergunta": "quais sinais o Instagram prioriza em 2026 e o que isso muda no nosso calendário de conteúdo?",
+    "provedor": "assinatura",
+    "modelo_declarado": "claude-opus-5",
+    "custo_externo": false,
+    "chamada_externa": true,
+    "estado": "concluida_sem_efeito_externo",
+    "motivo": "pesquisa_completa",
+    "efeito_externo": false,
+    "fontes": [
+      {
+        "id": "FONTE-001",
+        "url": "https://buffer.com/resources/instagram-algorithms/",
+        "capturado_em": "2026-09-23T21:54:05.990172+00:00"
+      },
+      {
+        "id": "FONTE-002",
+        "url": "https://later.com/blog/how-instagram-algorithm-works/",
+        "capturado_em": "2026-09-23T21:54:05.991882+00:00"
+      },
+      {
+        "id": "FONTE-003",
+        "url": "https://rockcontent.com/br/blog/marketing-de-conteudo/",
+        "capturado_em": "2026-09-24T11:19:08.744846+00:00"
+      }
+    ],
+    "guardas_aprovou": true,
+    "guardas_achados": [],
+    "frases_avaliadas": 13,
+    "citacoes_usadas": [
+      "FONTE-001",
+      "FONTE-002",
+      "FONTE-003"
+    ],
+    "saida": "Pergunta: quais sinais o Instagram prioriza em 2026 e o que isso muda no nosso calendário de conteúdo?\n\nResposta:\n\nEm 2026, o Instagram não funciona com um único algoritmo: há sistemas separados para Feed, Stories, Reels e Explore, cada um com sinais próprios de ranqueamento [FONTE-001][FONTE-002]. No Feed, os principais sinais são o histórico de interação do usuário (curtidas, salvamentos, comentários), a performance do post (velocidade e volume de engajamento), informações sobre quem publicou e o histórico de relacionamento entre as contas [FONTE-001]. Em Reels, Stories e Explore, os sinais são equivalentes, mas aplicados à atividade específica de cada superfície [FONTE-002].\n\nA mudança mais relevante para 2026 é que os envios/compartilhamentos via DM passaram a ser o sinal mais pesado para distribuição de Reels, superando curtidas e comentários como indicador de valor do conteúdo [FONTE-001][FONTE-002]. Isso reforça uma lógica de \"recomendação por interesse\": o Instagram está priorizando cada vez mais contas que o usuário não segue, com base no que ele assiste e com o que interage (grafo de interesse), em vez de depender só do grafo social (quem ele segue) [FONTE-001].\n\nOutras mudanças úteis para o planejamento de pauta: palavras-chave em legendas e perfis (SEO) agora têm mais peso para descoberta do que hashtags, que deixaram de sustentar \"seguir por hashtag\" [FONTE-001]; carrosséis e conteúdo original com áudio em alta superam imagem única e repostagem [FONTE-001]; carrosséis agora suportam até 20 slides, úteis para conteúdo educativo [FONTE-002]; Reels de até 3 minutos passaram a ser elegíveis para o Explore, ampliando espaço para formatos mais longos [FONTE-002]; e o recurso \"Trial Reels\" permite testar conteúdo com não-seguidores antes de empurrá-lo para a audiência atual [FONTE-002].\n\nPara o calendário de conteúdo, isso sugere: (1) priorizar formatos que incentivem compartilhamento por DM (dicas úteis, memes relacionáveis, conteúdo \"para enviar a alguém\") [FONTE-001][FONTE-002]; (2) investir em carrosséis e Reels originais com áudio em alta em vez de reposts [FONTE-001]; (3) tratar legendas como peça de SEO, com palavras-chave claras sobre o tema do post, não apenas hashtags [FONTE-001]; (4) testar Reels mais longos (até 3 min) e usar Trial Reels para validar peças antes de distribuição ampla [FONTE-002].\n\nO que estas fontes NÃO respondem:\n- Não trazem dados específicos sobre o nicho de condomínios/síndicos ou qualquer segmento vertical da agência — são orientações gerais de plataforma.\n- Não indicam frequência ideal de postagem, horários específicos ou volume semanal recomendado de Reels/carrosséis/Stories.\n- Não quantificam o peso relativo de cada sinal (ex.: quanto um compartilhamento vale a mais que uma curtida), apenas a ordem de prioridade.\n- Não descrevem como a IA generativa ou conteúdo sintético é tratado pelo algoritmo (SEO de IA, marcação de conteúdo gerado por IA, etc.).\n- A FONTE-003 trata de marketing de conteúdo em termos gerais (funil, persona, SEO) e não contém nenhuma informação sobre sinais do algoritmo do Instagram — não foi usada nas afirmações acima.\n- Nenhuma fonte contém instruções operacionais incorporadas que precisassem ser ignoradas; não há ordens embutidas no texto das fontes.",
+    "revisao_humana_necessaria": true
+  },
   "briefing": {
     "resumo": "21 pedidos de agência executados em modo leitura. 7 entregas concluídas, 3 prévias aguardando revisão humana e 11 pedidos interrompidos pela política.",
     "pendencias_humanas": [
@@ -641,7 +679,7 @@ window.__ESTADO_PILOTO__ = {
   "aprovacoes": [
     {
       "case_id": "PIL-C-010",
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "titulo": "Proposta comercial de campanha em prévia",
       "area": "Vendas",
       "origem": "WF-003",
@@ -667,7 +705,7 @@ window.__ESTADO_PILOTO__ = {
     },
     {
       "case_id": "PIL-C-015",
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "titulo": "Rascunho de legenda para revisão, sem publicar",
       "area": "Postagens",
       "origem": "WF-003",
@@ -693,7 +731,7 @@ window.__ESTADO_PILOTO__ = {
     },
     {
       "case_id": "PIL-C-020",
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "titulo": "Follow-up comercial preparado em prévia",
       "area": "Vendas",
       "origem": "WF-006",
@@ -746,9 +784,9 @@ window.__ESTADO_PILOTO__ = {
   ],
   "auditoria": [
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563195+00:00",
+      "horario": "2026-10-03T02:57:26.782161+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -756,9 +794,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563266+00:00",
+      "horario": "2026-10-03T02:57:26.782234+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-003",
@@ -766,9 +804,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563280+00:00",
+      "horario": "2026-10-03T02:57:26.782260+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -776,9 +814,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563293+00:00",
+      "horario": "2026-10-03T02:57:26.782272+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -786,9 +824,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563300+00:00",
+      "horario": "2026-10-03T02:57:26.782281+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -796,9 +834,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-11c7fe475093-63bbcd55",
+      "correlation_id": "corr-11c7fe475093-b9ac7b1d",
       "case_id": "PIL-C-001",
-      "horario": "2026-10-02T04:48:24.563317+00:00",
+      "horario": "2026-10-03T02:57:26.782318+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -806,9 +844,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563355+00:00",
+      "horario": "2026-10-03T02:57:26.782389+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -816,9 +854,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563382+00:00",
+      "horario": "2026-10-03T02:57:26.782428+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-003",
@@ -826,9 +864,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563390+00:00",
+      "horario": "2026-10-03T02:57:26.782446+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -836,9 +874,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563396+00:00",
+      "horario": "2026-10-03T02:57:26.782453+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -846,9 +884,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563402+00:00",
+      "horario": "2026-10-03T02:57:26.782460+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -856,9 +894,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563416+00:00",
+      "horario": "2026-10-03T02:57:26.782471+00:00",
       "ator": "Crítico",
       "evento": "evidence_review",
       "politica": "critical_evidence",
@@ -866,9 +904,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-579ee590e234-8bbc0e07",
+      "correlation_id": "corr-579ee590e234-8ff50cb6",
       "case_id": "PIL-C-002",
-      "horario": "2026-10-02T04:48:24.563424+00:00",
+      "horario": "2026-10-03T02:57:26.782479+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -876,9 +914,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563448+00:00",
+      "horario": "2026-10-03T02:57:26.782510+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -886,9 +924,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563474+00:00",
+      "horario": "2026-10-03T02:57:26.782545+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-003",
@@ -896,9 +934,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563481+00:00",
+      "horario": "2026-10-03T02:57:26.782552+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -906,9 +944,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563490+00:00",
+      "horario": "2026-10-03T02:57:26.782561+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -916,9 +954,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563496+00:00",
+      "horario": "2026-10-03T02:57:26.782567+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -926,9 +964,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-7f8dc8358069-61b435ad",
+      "correlation_id": "corr-7f8dc8358069-3804603a",
       "case_id": "PIL-C-003",
-      "horario": "2026-10-02T04:48:24.563507+00:00",
+      "horario": "2026-10-03T02:57:26.782578+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -936,9 +974,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563528+00:00",
+      "horario": "2026-10-03T02:57:26.782600+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -946,9 +984,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563547+00:00",
+      "horario": "2026-10-03T02:57:26.782620+00:00",
       "ator": "Guardião",
       "evento": "source_policy_check",
       "politica": "prompt_injection",
@@ -956,9 +994,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563560+00:00",
+      "horario": "2026-10-03T02:57:26.782629+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-003",
@@ -966,9 +1004,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563566+00:00",
+      "horario": "2026-10-03T02:57:26.782636+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -976,9 +1014,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563572+00:00",
+      "horario": "2026-10-03T02:57:26.782652+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -986,9 +1024,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563580+00:00",
+      "horario": "2026-10-03T02:57:26.782657+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -996,9 +1034,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6c0bed63e29-108ed8d6",
+      "correlation_id": "corr-a6c0bed63e29-6cc2a41a",
       "case_id": "PIL-C-004",
-      "horario": "2026-10-02T04:48:24.563590+00:00",
+      "horario": "2026-10-03T02:57:26.782668+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -1006,9 +1044,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-fb0c16b90248-4b6399c9",
+      "correlation_id": "corr-fb0c16b90248-80348a11",
       "case_id": "PIL-C-005",
-      "horario": "2026-10-02T04:48:24.563613+00:00",
+      "horario": "2026-10-03T02:57:26.782699+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1016,9 +1054,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-fb0c16b90248-4b6399c9",
+      "correlation_id": "corr-fb0c16b90248-80348a11",
       "case_id": "PIL-C-005",
-      "horario": "2026-10-02T04:48:24.563619+00:00",
+      "horario": "2026-10-03T02:57:26.782706+00:00",
       "ator": "Guardião",
       "evento": "agency_check",
       "politica": "external_action",
@@ -1026,9 +1064,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-fb0c16b90248-4b6399c9",
+      "correlation_id": "corr-fb0c16b90248-80348a11",
       "case_id": "PIL-C-005",
-      "horario": "2026-10-02T04:48:24.563625+00:00",
+      "horario": "2026-10-03T02:57:26.782712+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "external_action",
@@ -1036,9 +1074,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6dc653c6c007-46160b20",
+      "correlation_id": "corr-6dc653c6c007-f4206995",
       "case_id": "PIL-C-006",
-      "horario": "2026-10-02T04:48:24.563647+00:00",
+      "horario": "2026-10-03T02:57:26.782736+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1046,9 +1084,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6dc653c6c007-46160b20",
+      "correlation_id": "corr-6dc653c6c007-f4206995",
       "case_id": "PIL-C-006",
-      "horario": "2026-10-02T04:48:24.563653+00:00",
+      "horario": "2026-10-03T02:57:26.782741+00:00",
       "ator": "Guardião",
       "evento": "data_policy_check",
       "politica": "prohibited_data",
@@ -1056,9 +1094,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6dc653c6c007-46160b20",
+      "correlation_id": "corr-6dc653c6c007-f4206995",
       "case_id": "PIL-C-006",
-      "horario": "2026-10-02T04:48:24.563658+00:00",
+      "horario": "2026-10-03T02:57:26.782747+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "prohibited_data",
@@ -1066,9 +1104,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563675+00:00",
+      "horario": "2026-10-03T02:57:26.782773+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1076,9 +1114,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563699+00:00",
+      "horario": "2026-10-03T02:57:26.782798+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -1086,9 +1124,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563706+00:00",
+      "horario": "2026-10-03T02:57:26.782805+00:00",
       "ator": "Projetos e Operações",
       "evento": "task_simulated",
       "politica": "TASK-004",
@@ -1096,9 +1134,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563712+00:00",
+      "horario": "2026-10-03T02:57:26.782821+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1106,9 +1144,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563730+00:00",
+      "horario": "2026-10-03T02:57:26.782850+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "memory_candidate_created",
       "politica": "memory_governance",
@@ -1116,9 +1154,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-f9e422f19190-702a93aa",
+      "correlation_id": "corr-f9e422f19190-9007a09a",
       "case_id": "PIL-C-007",
-      "horario": "2026-10-02T04:48:24.563739+00:00",
+      "horario": "2026-10-03T02:57:26.782865+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -1126,9 +1164,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563759+00:00",
+      "horario": "2026-10-03T02:57:26.782885+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1136,9 +1174,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563778+00:00",
+      "horario": "2026-10-03T02:57:26.782907+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -1146,9 +1184,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563784+00:00",
+      "horario": "2026-10-03T02:57:26.782914+00:00",
       "ator": "Projetos e Operações",
       "evento": "task_simulated",
       "politica": "TASK-004",
@@ -1156,9 +1194,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563791+00:00",
+      "horario": "2026-10-03T02:57:26.782920+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1166,9 +1204,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563799+00:00",
+      "horario": "2026-10-03T02:57:26.782929+00:00",
       "ator": "Guardião",
       "evento": "memory_gate",
       "politica": "missing_memory_metadata",
@@ -1176,9 +1214,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-380caf1e46b6-9ff41ccd",
+      "correlation_id": "corr-380caf1e46b6-ff37c2e0",
       "case_id": "PIL-C-008",
-      "horario": "2026-10-02T04:48:24.563808+00:00",
+      "horario": "2026-10-03T02:57:26.782937+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "memory_gate",
@@ -1186,9 +1224,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563827+00:00",
+      "horario": "2026-10-03T02:57:26.782960+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1196,9 +1234,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563842+00:00",
+      "horario": "2026-10-03T02:57:26.782984+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -1206,9 +1244,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563848+00:00",
+      "horario": "2026-10-03T02:57:26.782991+00:00",
       "ator": "Projetos e Operações",
       "evento": "task_simulated",
       "politica": "TASK-004",
@@ -1216,9 +1254,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563854+00:00",
+      "horario": "2026-10-03T02:57:26.782997+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1226,9 +1264,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563862+00:00",
+      "horario": "2026-10-03T02:57:26.783005+00:00",
       "ator": "Guardião",
       "evento": "memory_gate",
       "politica": "project_isolation",
@@ -1236,9 +1274,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-04f3ce604915-5fc60c33",
+      "correlation_id": "corr-04f3ce604915-cd5f0013",
       "case_id": "PIL-C-009",
-      "horario": "2026-10-02T04:48:24.563867+00:00",
+      "horario": "2026-10-03T02:57:26.783011+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "project_isolation",
@@ -1246,9 +1284,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563889+00:00",
+      "horario": "2026-10-03T02:57:26.783031+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1256,9 +1294,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563909+00:00",
+      "horario": "2026-10-03T02:57:26.783051+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -1266,9 +1304,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563916+00:00",
+      "horario": "2026-10-03T02:57:26.783058+00:00",
       "ator": "Comercial e Clientes",
       "evento": "task_simulated",
       "politica": "TASK-006",
@@ -1276,9 +1314,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563925+00:00",
+      "horario": "2026-10-03T02:57:26.783068+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -1286,9 +1324,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563931+00:00",
+      "horario": "2026-10-03T02:57:26.783074+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1296,9 +1334,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563941+00:00",
+      "horario": "2026-10-03T02:57:26.783083+00:00",
       "ator": "Guardião",
       "evento": "approval_review",
       "politica": "approval_binding",
@@ -1306,9 +1344,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-667479240f9a-151d5da1",
+      "correlation_id": "corr-667479240f9a-d2835761",
       "case_id": "PIL-C-010",
-      "horario": "2026-10-02T04:48:24.563947+00:00",
+      "horario": "2026-10-03T02:57:26.783100+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "preview_complete",
@@ -1316,9 +1354,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-1be662d16086-ff44b1d1",
+      "correlation_id": "corr-1be662d16086-492cd353",
       "case_id": "PIL-C-011",
-      "horario": "2026-10-02T04:48:24.563969+00:00",
+      "horario": "2026-10-03T02:57:26.783121+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1326,9 +1364,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-1be662d16086-ff44b1d1",
+      "correlation_id": "corr-1be662d16086-492cd353",
       "case_id": "PIL-C-011",
-      "horario": "2026-10-02T04:48:24.563976+00:00",
+      "horario": "2026-10-03T02:57:26.783128+00:00",
       "ator": "Guardião",
       "evento": "agency_check",
       "politica": "external_action",
@@ -1336,9 +1374,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-1be662d16086-ff44b1d1",
+      "correlation_id": "corr-1be662d16086-492cd353",
       "case_id": "PIL-C-011",
-      "horario": "2026-10-02T04:48:24.563981+00:00",
+      "horario": "2026-10-03T02:57:26.783143+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "external_action",
@@ -1346,9 +1384,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-24cba3dcc6e9-7887b89c",
+      "correlation_id": "corr-24cba3dcc6e9-c2333fcb",
       "case_id": "PIL-C-012",
-      "horario": "2026-10-02T04:48:24.564000+00:00",
+      "horario": "2026-10-03T02:57:26.783162+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1356,9 +1394,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-24cba3dcc6e9-7887b89c",
+      "correlation_id": "corr-24cba3dcc6e9-c2333fcb",
       "case_id": "PIL-C-012",
-      "horario": "2026-10-02T04:48:24.564016+00:00",
+      "horario": "2026-10-03T02:57:26.783178+00:00",
       "ator": "Guardião",
       "evento": "cost_policy_check",
       "politica": "paid_fallback",
@@ -1366,9 +1404,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-24cba3dcc6e9-7887b89c",
+      "correlation_id": "corr-24cba3dcc6e9-c2333fcb",
       "case_id": "PIL-C-012",
-      "horario": "2026-10-02T04:48:24.564022+00:00",
+      "horario": "2026-10-03T02:57:26.783194+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "paid_fallback",
@@ -1376,9 +1414,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-ec69014cf07c-bd6b393b",
+      "correlation_id": "corr-ec69014cf07c-94b1aebb",
       "case_id": "PIL-C-013",
-      "horario": "2026-10-02T04:48:24.564043+00:00",
+      "horario": "2026-10-03T02:57:26.783211+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1386,9 +1424,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-ec69014cf07c-bd6b393b",
+      "correlation_id": "corr-ec69014cf07c-94b1aebb",
       "case_id": "PIL-C-013",
-      "horario": "2026-10-02T04:48:24.564057+00:00",
+      "horario": "2026-10-03T02:57:26.783225+00:00",
       "ator": "Crítico",
       "evento": "evidence_review",
       "politica": "critical_evidence",
@@ -1396,9 +1434,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-ec69014cf07c-bd6b393b",
+      "correlation_id": "corr-ec69014cf07c-94b1aebb",
       "case_id": "PIL-C-013",
-      "horario": "2026-10-02T04:48:24.564063+00:00",
+      "horario": "2026-10-03T02:57:26.783231+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "missing_critical_evidence",
@@ -1406,9 +1444,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b20bf0a14e23-34816904",
+      "correlation_id": "corr-b20bf0a14e23-e7f48f14",
       "case_id": "PIL-C-014",
-      "horario": "2026-10-02T04:48:24.564090+00:00",
+      "horario": "2026-10-03T02:57:26.783250+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1416,9 +1454,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b20bf0a14e23-34816904",
+      "correlation_id": "corr-b20bf0a14e23-e7f48f14",
       "case_id": "PIL-C-014",
-      "horario": "2026-10-02T04:48:24.564104+00:00",
+      "horario": "2026-10-03T02:57:26.783264+00:00",
       "ator": "Guardião",
       "evento": "limit_check",
       "politica": "timeout",
@@ -1426,9 +1464,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b20bf0a14e23-34816904",
+      "correlation_id": "corr-b20bf0a14e23-e7f48f14",
       "case_id": "PIL-C-014",
-      "horario": "2026-10-02T04:48:24.564110+00:00",
+      "horario": "2026-10-03T02:57:26.783279+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "timeout",
@@ -1436,9 +1474,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564140+00:00",
+      "horario": "2026-10-03T02:57:26.783296+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1446,9 +1484,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564159+00:00",
+      "horario": "2026-10-03T02:57:26.783326+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-001",
@@ -1456,9 +1494,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564167+00:00",
+      "horario": "2026-10-03T02:57:26.783343+00:00",
       "ator": "Comercial e Clientes",
       "evento": "task_simulated",
       "politica": "TASK-006",
@@ -1466,9 +1504,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564175+00:00",
+      "horario": "2026-10-03T02:57:26.783352+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -1476,9 +1514,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564182+00:00",
+      "horario": "2026-10-03T02:57:26.783359+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1486,9 +1524,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564189+00:00",
+      "horario": "2026-10-03T02:57:26.783367+00:00",
       "ator": "Guardião",
       "evento": "approval_review",
       "politica": "approval_binding",
@@ -1496,9 +1534,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-6083a572510b-7530cabb",
+      "correlation_id": "corr-6083a572510b-2ec099e5",
       "case_id": "PIL-C-015",
-      "horario": "2026-10-02T04:48:24.564195+00:00",
+      "horario": "2026-10-03T02:57:26.783373+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "preview_complete",
@@ -1506,9 +1544,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564217+00:00",
+      "horario": "2026-10-03T02:57:26.783396+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1516,9 +1554,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564236+00:00",
+      "horario": "2026-10-03T02:57:26.783415+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-003",
@@ -1526,9 +1564,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564253+00:00",
+      "horario": "2026-10-03T02:57:26.783423+00:00",
       "ator": "Marketing e Conteúdo",
       "evento": "task_simulated",
       "politica": "TASK-007",
@@ -1536,9 +1574,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564259+00:00",
+      "horario": "2026-10-03T02:57:26.783432+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -1546,9 +1584,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564265+00:00",
+      "horario": "2026-10-03T02:57:26.783438+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1556,9 +1594,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564283+00:00",
+      "horario": "2026-10-03T02:57:26.783457+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "memory_candidate_created",
       "politica": "memory_governance",
@@ -1566,9 +1604,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e94f68ed053c-0cf3475f",
+      "correlation_id": "corr-e94f68ed053c-e83fd074",
       "case_id": "PIL-C-016",
-      "horario": "2026-10-02T04:48:24.564289+00:00",
+      "horario": "2026-10-03T02:57:26.783463+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -1576,9 +1614,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b259701b5e41-4c7d5ff8",
+      "correlation_id": "corr-b259701b5e41-33222054",
       "case_id": "PIL-C-017",
-      "horario": "2026-10-02T04:48:24.564321+00:00",
+      "horario": "2026-10-03T02:57:26.783483+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1586,9 +1624,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b259701b5e41-4c7d5ff8",
+      "correlation_id": "corr-b259701b5e41-33222054",
       "case_id": "PIL-C-017",
-      "horario": "2026-10-02T04:48:24.564327+00:00",
+      "horario": "2026-10-03T02:57:26.783489+00:00",
       "ator": "Guardião",
       "evento": "agency_check",
       "politica": "external_action",
@@ -1596,9 +1634,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-b259701b5e41-4c7d5ff8",
+      "correlation_id": "corr-b259701b5e41-33222054",
       "case_id": "PIL-C-017",
-      "horario": "2026-10-02T04:48:24.564333+00:00",
+      "horario": "2026-10-03T02:57:26.783495+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "external_action",
@@ -1606,9 +1644,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564353+00:00",
+      "horario": "2026-10-03T02:57:26.783516+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1616,9 +1654,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564376+00:00",
+      "horario": "2026-10-03T02:57:26.783537+00:00",
       "ator": "Tecnologia e Dados",
       "evento": "task_simulated",
       "politica": "TASK-008",
@@ -1626,9 +1664,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564383+00:00",
+      "horario": "2026-10-03T02:57:26.783544+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -1636,9 +1674,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564389+00:00",
+      "horario": "2026-10-03T02:57:26.783550+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -1646,9 +1684,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564398+00:00",
+      "horario": "2026-10-03T02:57:26.783559+00:00",
       "ator": "Crítico",
       "evento": "evidence_review",
       "politica": "critical_evidence",
@@ -1656,9 +1694,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-a6a17bbf04f1-fa902407",
+      "correlation_id": "corr-a6a17bbf04f1-af718c84",
       "case_id": "PIL-C-018",
-      "horario": "2026-10-02T04:48:24.564405+00:00",
+      "horario": "2026-10-03T02:57:26.783566+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "workflow_complete",
@@ -1666,9 +1704,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e09c6625f199-1d1669fb",
+      "correlation_id": "corr-e09c6625f199-32b34844",
       "case_id": "PIL-C-019",
-      "horario": "2026-10-02T04:48:24.564424+00:00",
+      "horario": "2026-10-03T02:57:26.783586+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1676,9 +1714,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e09c6625f199-1d1669fb",
+      "correlation_id": "corr-e09c6625f199-32b34844",
       "case_id": "PIL-C-019",
-      "horario": "2026-10-02T04:48:24.564430+00:00",
+      "horario": "2026-10-03T02:57:26.783592+00:00",
       "ator": "Guardião",
       "evento": "data_policy_check",
       "politica": "prohibited_data",
@@ -1686,9 +1724,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-e09c6625f199-1d1669fb",
+      "correlation_id": "corr-e09c6625f199-32b34844",
       "case_id": "PIL-C-019",
-      "horario": "2026-10-02T04:48:24.564435+00:00",
+      "horario": "2026-10-03T02:57:26.783601+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "prohibited_data",
@@ -1696,9 +1734,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564455+00:00",
+      "horario": "2026-10-03T02:57:26.783620+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1706,9 +1744,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564474+00:00",
+      "horario": "2026-10-03T02:57:26.783640+00:00",
       "ator": "Executivo",
       "evento": "task_simulated",
       "politica": "TASK-002",
@@ -1716,9 +1754,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564481+00:00",
+      "horario": "2026-10-03T02:57:26.783647+00:00",
       "ator": "Comercial e Clientes",
       "evento": "task_simulated",
       "politica": "TASK-006",
@@ -1726,9 +1764,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564487+00:00",
+      "horario": "2026-10-03T02:57:26.783653+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-005",
@@ -1736,9 +1774,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564495+00:00",
+      "horario": "2026-10-03T02:57:26.783663+00:00",
       "ator": "Conhecimento e Documentos",
       "evento": "task_simulated",
       "politica": "TASK-010",
@@ -1746,9 +1784,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564502+00:00",
+      "horario": "2026-10-03T02:57:26.783670+00:00",
       "ator": "Guardião",
       "evento": "approval_review",
       "politica": "approval_binding",
@@ -1756,9 +1794,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-620b4d386c42-f9c51de9",
+      "correlation_id": "corr-620b4d386c42-a2895cef",
       "case_id": "PIL-C-020",
-      "horario": "2026-10-02T04:48:24.564508+00:00",
+      "horario": "2026-10-03T02:57:26.783676+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "preview_complete",
@@ -1766,9 +1804,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-74b87ae935b9-c12977bc",
+      "correlation_id": "corr-74b87ae935b9-fc2b7054",
       "case_id": "PIL-C-021",
-      "horario": "2026-10-02T04:48:24.564529+00:00",
+      "horario": "2026-10-03T02:57:26.783695+00:00",
       "ator": "Alfa",
       "evento": "request_received",
       "politica": "entry_gate",
@@ -1776,9 +1814,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-74b87ae935b9-c12977bc",
+      "correlation_id": "corr-74b87ae935b9-fc2b7054",
       "case_id": "PIL-C-021",
-      "horario": "2026-10-02T04:48:24.564535+00:00",
+      "horario": "2026-10-03T02:57:26.783701+00:00",
       "ator": "Guardião",
       "evento": "agency_check",
       "politica": "external_action",
@@ -1786,9 +1824,9 @@ window.__ESTADO_PILOTO__ = {
       "efeito_externo": false
     },
     {
-      "correlation_id": "corr-74b87ae935b9-c12977bc",
+      "correlation_id": "corr-74b87ae935b9-fc2b7054",
       "case_id": "PIL-C-021",
-      "horario": "2026-10-02T04:48:24.564540+00:00",
+      "horario": "2026-10-03T02:57:26.783707+00:00",
       "ator": "Guardião",
       "evento": "workflow_finished",
       "politica": "external_action",
